@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">DART Dashclock Extension</string>
+    <string name="extension_title">DART Extension</string>
+    <string name="extension_description">Displays Realtime DART info at appropriate time</string>
+    <string name="title_settings">DART Extension Settings</string>
+    <string name="pref_name_title">Your name</string>
+    <string name="pref_name_default">John Smith</string>
+
+</resources>
