@@ -28,7 +28,22 @@
             <meta-data android:name="settingsActivity"
                 android:value=".DARTSettingsActivity" />
         </service>
+        
+        <service
+            android:name=".services.NearestDARTStationService"
+            android:icon="@drawable/ic_irishrail"
+            android:label="@string/service_name" >
+        </service>
+        
+        <service android:name=".services.GetDataService" >
+        </service>
 
+        <receiver android:name=".receivers.StartServiceReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        
         <activity android:name=".DARTSettingsActivity"
             android:label="@string/title_settings"
             android:exported="true" />

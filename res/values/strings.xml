@@ -6,5 +6,6 @@
     <string name="title_settings">DART Extension Settings</string>
     <string name="pref_name_title">Your name</string>
     <string name="pref_name_default">John Smith</string>
+    <string name="service_name">DART Station Service</string>
 
 </resources>
